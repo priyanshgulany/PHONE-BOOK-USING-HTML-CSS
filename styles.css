@@ -1,0 +1,63 @@
+div {
+    background-color: black;
+    text-align: center;
+    margin:20px;
+    border: 20px auto;
+
+
+    
+    }
+
+    #abc{
+        width: 80vw;
+        margin: 20px auto;
+    }
+    div h1{
+        border-bottom: 2px white dashed;
+        border-radius: 15px 50px;
+    }
+
+    h1{
+        color: white;
+        margin-top: 10px;
+
+    }
+    h1::before{
+        content: '\260E';
+    }
+
+    h2{
+        text-align: left;
+        color: white;
+        border-bottom: 1px solid lightslategray;
+        margin-left: 20px;
+    }
+
+    #contact{
+        text-align: left;
+        margin-left: 50px;
+        color: white;
+        background-color: lightslategray;
+        border-radius: 10px 30px;
+
+    }
+
+    #contact::before{
+        content: '\260E';
+        
+    }
+
+    #list{
+        position:sticky;
+        top: 40px;
+        width: 70%;
+        margin-top:50px;
+        margin-left: 85px;
+    }
+
+    #heading{
+        position:sticky;
+        top: 50px;
+    
+    }
+
